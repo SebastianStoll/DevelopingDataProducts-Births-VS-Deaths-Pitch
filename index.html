@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Births vs. Deaths Pitch</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Births vs. Deaths Pitch">
+  <meta name="author" content="Sebastian Stoll">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/default.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Births vs. Deaths Pitch</h1>
+    <h2>A shiny app for exploring the relationship between births and deaths across the world.</h2>
+    <p>Sebastian Stoll<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h1>Importance of understanding the demographic developments</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>The demographic development within a country or region is fundamental for decision making. For example an aging and declining population requires different strategies than a population which is getting younger.</p>
+
+<p>Especially in developed countries there is a steady decline of population e.g. in Germany:</p>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h1>Births vs. Deaths App</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>Births vs. Deaths is an app to interactively explore the relationship between births and deaths in a selected country or region.</p>
+
+<p>It is hosted on shinyapps.io and can be reached under the URL </p>
+
+<p><a href="https://sebastianstoll.shinyapps.io/birthsvsdeaths-app/">https://sebastianstoll.shinyapps.io/birthsvsdeaths-app/</a></p>
+
+<p><img src="assets/img/1-birthsvsdeaths.jpg" alt="births vs. death app"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h1>App Features</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>The app compares the births and deaths for a given country and region.</p>
+
+<p>It features</p>
+
+<ul>
+<li>Country selection for all the worlds countries</li>
+<li>Selection of 33 different geographical or income regions</li>
+<li>Selection of the world as a special region</li>
+<li>Date range slider for specifying a time period of interest</li>
+<li>Two y axis modes for having a dynamic or fixed scaling</li>
+<li>Time series line plot comparing births and deaths</li>
+</ul>
+
+<p>The app was realised using R and shinyapps from R Studio.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h1>Source Data</h1>
+  </hgroup>
+  <article data-timings="">
+    <p>The source data was taken from <a href="http://data.worldbank.org">World bank</a> which is a repository containing data about development in countries around the globe.</p>
+
+<p>In particular two data sets on crude births and deaths per 1000 population were used</p>
+
+<p><a href="http://data.worldbank.org/indicator/SP.DYN.CBRT.IN">Crude births</a><br>
+<a href="http://data.worldbank.org/indicator/SP.DYN.CDRT.IN">Crude deaths</a></p>
+
+<h1>References</h1>
+
+<p><a href="https://www.shinyapps.io">shinyapps.io</a><br>
+<a href="http://www.r-project.org/">R</a><br>
+<a href="http://www.rstudio.com/">R Studio</a><br>
+<a href="http://data.worldbank.org">World bank</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Importance of understanding the demographic developments'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Births vs. Deaths App'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='App Features'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Source Data'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
